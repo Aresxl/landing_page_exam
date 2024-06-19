@@ -1,18 +1,38 @@
 /** Goodluck **/
+body {
+    display: flex;
+}
+
 
 .header {
+    display: flex;
+    flex-basis: 100%;
     background-color: #284670
-
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 
+}
 
 ul {
+    display: flex;
+    gap: 7px;
     list-style: none;
+    
 }
 
+
+/** Link + LI Deco **/
 a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
 }
