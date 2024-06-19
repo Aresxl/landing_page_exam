@@ -1,6 +1,7 @@
 /** Goodluck **/
 body {
     display: flex;
+    flex-direction: column;
 }
 
 
@@ -15,6 +16,18 @@ header {
     flex-direction: column;
     width: 100%;
 
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    
+    background-color: #284670
+}
+
+.info {
+    display: flex;
+    flex-basis: 54rem;
 }
 
 ul {
